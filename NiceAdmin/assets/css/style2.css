@@ -1,0 +1,226 @@
+.cardd {
+  /* box-shadow: 0 4px 6px -1px rgba(0,0,0,.1), 0 2px 4px -1px rgba(0,0,0,.06); */
+}
+
+.h-100 {
+  height: 94% !important;
+}
+
+.cardd {
+  --bs-card-spacer-y: 1rem;
+  --bs-card-spacer-x: 1rem;
+  --bs-card-title-spacer-y: 0.5rem;
+  --bs-card-border-width: 0;
+  --bs-card-border-color: rgba(0, 0, 0, .125);
+  --bs-card-border-radius: 0.75rem;
+  --bs-card-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -1px rgba(0, 0, 0, .06);
+  --bs-card-inner-border-radius: 0.75rem;
+  --bs-card-cap-padding-y: 0.5rem;
+  --bs-card-cap-padding-x: 1rem;
+  --bs-card-cap-bg: #fff;
+  --bs-card-bg: #fff;
+  --bs-card-img-overlay-padding: 1rem;
+  --bs-card-group-margin: 0.75rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  height: var(--bs-card-height);
+  word-wrap: break-word;
+  background-color: var(--bs-card-bg);
+  background-clip: border-box;
+  /* border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+  border-radius: var(--bs-card-border-radius); */
+}
+
+.cardd .cardd-header {
+  padding: 1.5rem;
+}
+
+.cardd-header:first-child {
+  border-radius: var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius) 0 0;
+}
+
+.cardd-header {
+  padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);
+  margin-bottom: 0;
+  color: var(--bs-card-cap-color);
+  background-color: var(--bs-card-cap-bg);
+  border-bottom: var(--bs-card-border-width) solid var(--bs-card-border-color);
+}
+
+.cardd .cardd-body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  padding: 1.5rem;
+}
+
+.cardd-body {
+  flex: 1 1 auto;
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+  color: var(--bs-card-color);
+}
+
+.timeline {
+  position: relative;
+}
+
+.timeline-block:first-child {
+  margin-top: 0;
+}
+
+.timeline-block {
+  position: relative;
+}
+
+.timeline-one-side .timeline-step,
+.timeline-one-side:before {
+  left: 1rem;
+}
+
+.timeline-step {
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #fff;
+  text-align: center;
+  transform: translateX(-50%);
+  font-size: 1rem;
+  font-weight: 600;
+  z-index: 1;
+}
+
+.text-gradient.text-success {
+  background-image: linear-gradient(195deg, #66bb6a, #43a047);
+}
+
+.timeline-step i,
+.timeline-step svg {
+  line-height: 1.4;
+}
+
+.text-gradient {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  z-index: 1;
+}
+
+.material-icons {
+  font-family: Material Icons Round;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "liga";
+}
+
+.text-success {
+  color: #4caf50 !important;
+}
+
+.timeline-one-side .timeline-content {
+  width: auto;
+}
+
+.timeline-content {
+  margin-left: 45px;
+  padding-top: 0.35rem;
+  position: relative;
+  top: -6px;
+}
+
+.font-weight-bold {
+  /* font-weight: 600!important; */
+}
+
+.text-xs {
+  font-size: .75rem !important;
+}
+
+.text-xs {
+  line-height: 1.25;
+}
+
+.text-secondary {
+  color: #7b809a !important;
+}
+
+.avatar {
+  height: 30px;
+  width: 30px;
+}
+.mx-auto {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+.w-75 {
+  width: 75% !important;
+}
+.font-weight-bold {
+  font-weight: 600 !important;
+}
+.text-xs {
+  font-size: 0.75rem !important;
+}
+.text-xs {
+  line-height: 1.25;
+}
+.table td .progress {
+  height: 3px;
+  width: 120px;
+  margin: 0;
+}
+.progress {
+  overflow: visible;
+}
+.progress {
+  display: flex;
+  height: 6px;
+  overflow: hidden;
+  font-size: 0.75rem;
+  background-color: #f0f2f5;
+  border-radius: 0.125rem;
+}
+.table td .progress .progress-bar {
+  height: 3px;
+}
+.progress-bar {
+  height: 6px;
+  border-radius: 0.125rem;
+}
+.bg-gradient-info {
+  background-image: linear-gradient(195deg, #49a3f1 0%, #1A73E8 100%);
+}
+
+.w-60 {
+  width: 60% !important;
+}
+.progress-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  /* background-color: #e91e63; */
+  transition: width 0.6s ease;
+}
+.bg-gradient-success {
+  background-image: linear-gradient(195deg, #66BB6A 0%, #43A047 100%);
+}
